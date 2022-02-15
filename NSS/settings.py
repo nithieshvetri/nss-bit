@@ -85,11 +85,11 @@ WSGI_APPLICATION = 'NSS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'HOST': 'localhost',
-        'NAME': 'nssbit',
-        'PASSWORD':'Nithiesh125600',
+        'HOST': 'db',
+        'NAME': 'test',
+        'PASSWORD':'test',
         'PORT': '5432',
-        'USER': 'postgres',
+        'USER': 'test',
 
     }
 }
